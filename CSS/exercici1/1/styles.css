@@ -1,0 +1,16 @@
+.negre {
+  background-color: black;
+  color: white;
+}
+
+#principal {
+  border: 1px solid red;
+}
+
+#irregular {
+  margin: 0.5em 1em 2em 4em;
+}
+
+.esquerre {
+  padding-left: 50%;
+}

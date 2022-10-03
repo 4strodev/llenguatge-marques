@@ -1,0 +1,12 @@
+table {
+    margin: auto;
+    width: 50%;
+}
+td {
+    background-color: #ff9933;
+    border: 1px solid #000;
+    text-align: center;
+    padding: 1em;
+    font-size: 2em;
+    height: 50px;
+}

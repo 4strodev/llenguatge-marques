@@ -1,0 +1,41 @@
+* {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+#first-list {
+  background-color: chocolate;
+  border: 1rem solid black;
+  list-style-type: upper-alpha;
+  color: white;
+  margin: 1rem;
+}
+
+#first-list li {
+  padding: 1.2rem;
+  margin: 0 4.5rem;
+}
+
+#seccond-list {
+  background-color: darkslateblue;
+  list-style: none;
+  padding: 2.5rem 1rem;
+  margin: 1rem;
+}
+
+#seccond-list li {
+  margin: 0.5rem;
+  padding-left: 0.5rem;
+  background-color: lightcyan;
+}
+
+#seccond-list li:hover {
+  background-color: darkseagreen;
+  list-style-type: number;
+}

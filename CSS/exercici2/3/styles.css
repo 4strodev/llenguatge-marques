@@ -1,0 +1,58 @@
+/*   author : Xavier Baubes Parramon   <xbaubes@xtec.cat>   */
+
+body{
+    background: cornflowerblue;
+    font-family: Helvetica;
+    margin: 50px;
+}
+h1{
+    color: white;
+    font-size: 1.5em;
+    letter-spacing: 0.5px;
+    padding: 30px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Table Styles */
+
+.table-wrapper{
+    box-shadow: 0px 35px 50px rgba( 0, 0, 40, 0.2 );
+    margin-bottom: 90px;
+	overflow-x: auto;
+}
+
+/* work in progress ... */
+.my-table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.my-table * {
+  padding: 0.5rem;
+}
+
+.my-table > tbody > tr:nth-child(odd) {
+  background-color: white;
+}
+
+.my-table > tbody > tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+.my-table td {
+  border: 1px solid grey;
+}
+
+th {
+  color: white;
+}
+
+th:nth-child(odd) {
+  background-color: coral;
+}
+
+th:nth-child(even) {
+  background-color: sandybrown;
+}

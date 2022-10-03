@@ -1,0 +1,12 @@
+.container {
+  background-color: rgb(122, 114, 48);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeholder {
+  padding: 0.2em;
+  width: 50%;
+  border-radius: 50%;
+}
