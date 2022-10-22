@@ -1,0 +1,81 @@
+/*   author : Xavier Baubes Parramon   <xbaubes@xtec.cat>   */
+
+/* Removed padding and margin */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Font and format*/
+body {
+	font-family: "Lucida Grande", "Lucida Sans", "Trebuchet MS", Tahoma, Verdana, sans-serif;
+	font-size: 0.7em;
+	margin: 20px 0px 20px 10px;
+}
+
+/* Main content */
+h2{
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.box{
+	background: #f95959;
+	border: dashed #233142 1px;
+	width: 150px;
+	height: 100px;
+}
+.box span{
+	color: white;
+}
+
+/* Work in progress ... */
+#box1-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#box2-2 {
+  float: right;
+}
+
+#box3-2 {
+  display: none;
+}
+
+#box4-2 {
+  visibility: hidden;
+}
+
+#box-group6 {
+  display: flex;
+  gap: 0.1rem;
+}
+
+#box-group5 {
+  position: relative;
+  margin-bottom: 250px;
+}
+
+
+#box-group5 > div {
+  position: absolute;
+}
+
+#box5-1 {
+  top: 100px;
+  left: 100px;
+  z-index: 1;
+}
+
+#box5-2 {
+  top: 50px;
+  left: 50px;
+}
+
+#box5-3 {
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+

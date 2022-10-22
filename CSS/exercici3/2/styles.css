@@ -1,0 +1,60 @@
+/*   author : Xavier Baubes Parramon   <xbaubes@xtec.cat>   */
+
+@font-face {
+    font-family: SouthParkFont;
+    src: url(southpark.ttf);
+}
+
+* {
+    font-family: SouthParkFont;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+html {
+    background: LightSteelBlue;
+}
+
+/* work in progress ... */
+.card {
+  margin: 3rem auto 0 auto;
+  width: 30rem;
+  height: 20rem;
+  border: 0.75rem solid black;
+  border-radius: 0.3rem;
+}
+
+header {
+  font-size: 1.5rem;
+  padding: 1rem 0 0 1rem;
+  height: 20%;
+  background-color: red;
+}
+
+header > h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+article {
+  padding: 1.5rem 1rem 0 1rem;
+  height: 60%;
+  background-color: darkred;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+footer {
+  padding: 1.5rem 0 0 1rem;
+  height: 20%;
+  background-color: red;
+}
+
+footer > p {
+  margin: 0;
+}
+
+article > img {
+  width: 50%;
+  margin: 0.5rem;
+}

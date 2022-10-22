@@ -1,0 +1,75 @@
+:root {
+  --extralight-color: #E8F6E0;
+  --light-color: #D0DBCA;
+  --medium-color: #A0A89B;
+  --dark-color: #55614E;
+  --extradark-color: #575C54;
+  --card-box-shadow: .1rem .1rem .3rem #aaac;
+  --card-hover-box-shadow: .1rem .1rem .5rem #14141470;
+  background-color: var(--extralight-color);
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2.25rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.75rem;
+}
+h5 {
+  font-size: 1.50rem;
+}
+h6 {
+  font-size: 1.25rem;
+}
+
+body {
+  height: 100vh;
+}
+
+.color-extralight {
+  color: var(--extralight-color);
+}
+.color-light {
+  color: var(--light-color);
+}
+
+.color-medium {
+  color: var(--medium-color);
+}
+.color-dark {
+  color: var(--dark-color);
+}
+.color-extradark {
+  color: var(--extradark-color);
+}
+
+nav {
+  padding: 4rem;
+  background-color: var(--extradark-color);
+}
+
+footer {
+  padding: 4rem;
+  background-color: var(--extradark-color);
+}
+
+.image-link {
+  width: 2rem;
+}
+
+.image-link:hover {
+  border: .2rem dashed var(--extralight-color);
+}

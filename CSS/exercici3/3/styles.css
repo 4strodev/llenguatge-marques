@@ -1,0 +1,28 @@
+catalog {
+  display: flex;
+  flex-direction: column;
+  gap: .7rem;
+}
+
+book {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: grey;
+}
+
+book > * {
+  text-align: center;
+  color: white;
+}
+
+book > title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+book > author {
+  font-weight: bold;
+  order: 6;
+}
